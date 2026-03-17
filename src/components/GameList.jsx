@@ -18,11 +18,22 @@ export default function GameList(){
     <div >
 
       {/* LOGO */}
+         <div
+        style={{
+          display: "flex",
+          justifyContent: "center",
+          marginTop: "0px",
+          marginBottom: "0px"
+        }}
+      >
+        <img src={"/icone.gif"} style={{ width: "150px" }} />
+      </div>
+
       <div
         style={{
           display: "flex",
           justifyContent: "center",
-          marginTop: "40px",
+          marginTop: "0px",
           marginBottom: "30px"
         }}
       >
@@ -130,16 +141,7 @@ export default function GameList(){
 
 
                 
-      <div
-        style={{
-          display: "flex",
-          justifyContent: "center",
-          marginTop: "0px",
-          marginBottom: "0px"
-        }}
-      >
-        <img src={"/icone.gif"} style={{ width: "150px" }} />
-      </div>
+   
 
 
     </div>
